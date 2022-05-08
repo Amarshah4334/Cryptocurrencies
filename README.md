@@ -35,11 +35,20 @@ This new assignment consists of four technical analysis deliverables. You will s
 •	Use the StandardScaler fit_transform() function to standardize the features from the X DataFrame.
 
 
+![image](https://user-images.githubusercontent.com/96351897/167318942-cc525d60-6c57-4f24-924a-6ffb7fa0257d.png)
+
+
 # Deliverable 2: Reducing Data Dimensions Using PCA
 
 •	Continue using the crypto_clustering.ipynb file from Deliverable 1 where you’ve already performed the preprocessing steps.
 •	Using the information we’ve provided, apply PCA to reduce the dimensions to three principal components.
 •	Create a new DataFrame named pcs_df that includes the following columns, PC 1, PC 2, and PC 3, and uses the index of the crypto_df DataFrame as the index.
+
+
+![image](https://user-images.githubusercontent.com/96351897/167318988-c91d42d2-a774-4e9d-8222-3034e712a277.png)
+
+
+
 
 # Deliverable 3: Clustering Cryptocurrencies Using K-means
 
@@ -50,6 +59,10 @@ This new assignment consists of four technical analysis deliverables. You will s
 •	Add the CoinName column that holds the names of the cryptocurrencies, which you created in Step 7 of Deliverable 1, to the clustered_df.
 •	Add another new column to the clustered_df named Class that holds the predictions, i.e., model.labels_, from Step 3.
 
+
+![image](https://user-images.githubusercontent.com/96351897/167319005-298ca779-2b1b-4a07-844d-216dc38beb17.png)
+
+
 # Deliverable 4: Visualizing Cryptocurrencies Results
 
 
@@ -57,9 +70,25 @@ This new assignment consists of four technical analysis deliverables. You will s
 •	Create a 3D scatter plot using the Plotly Express scatter_3d() function to plot the three clusters from the clustered_df DataFrame.
 •	Add the CoinName and Algorithm columns to the hover_name and hover_data parameters, respectively, so each data point shows the CoinName and Algorithm on hover.
 •	Create a table with tradable cryptocurrencies using the hvplot.table() function.
+
+
+![image](https://user-images.githubusercontent.com/96351897/167319052-1376848e-9ebc-4d89-bc34-a33e1ebceb23.png)
+
+
 •	Print the total number of tradable cryptocurrencies in the clustered_df DataFrame.
 •	Use the MinMaxScaler().fit_transform method to scale the TotalCoinSupply and TotalCoinsMined columns between the given range of zero and one.
 •	Create a new DataFrame using the clustered_df DataFrame index that contains the scaled data you created in Step 5.
 •	Add the CoinName column from the clustered_df DataFrame to the new DataFrame.
 •	Add the Class column from the clustered_df DataFrame to the new DataFrame.
+
+
+![image](https://user-images.githubusercontent.com/96351897/167319079-5b9dd5bb-ce48-40d9-842f-dac7584eabe0.png)
+
+
 •	Create an hvplot scatter plot with x="TotalCoinsMined", y="TotalCoinSupply", and by="Class", and have it show the CoinName when you hover over the the data point.
+
+
+![image](https://user-images.githubusercontent.com/96351897/167319091-7c3bd5ac-b89d-4ed1-8b0b-f92612494d0b.png)
+
+
+
