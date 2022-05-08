@@ -43,9 +43,7 @@ This new assignment consists of four technical analysis deliverables. You will s
 •	Continue using the crypto_clustering.ipynb file from Deliverable 1 where you’ve already performed the preprocessing steps.
 •	Using the information we’ve provided, apply PCA to reduce the dimensions to three principal components.
 •	Create a new DataFrame named pcs_df that includes the following columns, PC 1, PC 2, and PC 3, and uses the index of the crypto_df DataFrame as the index.
-
-
-![image](https://user-images.githubusercontent.com/96351897/167318988-c91d42d2-a774-4e9d-8222-3034e712a277.png)
+![image](https://user-images.githubusercontent.com/96351897/167319145-3fb7955d-347c-461e-b43d-b069aa53d67a.png)
 
 
 
