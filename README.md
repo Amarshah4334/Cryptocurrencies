@@ -93,3 +93,6 @@ This new assignment consists of four technical analysis deliverables. You will s
 
 
 
+# Summary:
+
+This project has listed all crypto on the trading market , gropued them together and have been classified into different datasets that are valuable assets for trading purposes. Also the scatter plot and tabulated methodologyies for clustering as well as seggregation can help determine or summarize data that is relevant for investment purposes.
